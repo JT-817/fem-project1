@@ -1,0 +1,67 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  /* background-color: hsl(300, 69%, 71%); */
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  width: 85%;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+
+}
+.background {
+    z-index: -1;
+    min-height: 100%;
+    min-width: 1440px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .background {
+      text-align: center;
+      left: 50%;
+      margin-left: -512px;
+    }
+    .mockupImg {
+      width: 100%;
+    }
+  }
+  .logo {
+  position: relative;
+  left: 5rem;
+  top: 3rem;
+  }
+  .row {
+    padding-top: 15rem;
+  }
+.mockupImg {
+  width: 155%;
+  position: relative;
+  right: 15rem;
+  bottom: 7rem;
+}
+.mainText {
+position: relative;
+left: 10rem; 
+color: white;
+}
+.mainTextP {
+  padding-top: 2rem;
+}
+.registerBtn{
+  color: hsl(257, 40%, 49%);
+  width: 30%;
+  border-radius: 30px;
+  height: 7%;
+}
+.registerBtn:hover {
+  color: white;
+  background-color: hsl(300, 69%, 71%);;
+}
